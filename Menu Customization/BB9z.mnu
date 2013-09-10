@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<photoshop-menu-settings version="2" filename="$$$/FileName/Presets/MenuCustomization/BB9z=BB9z" modified="1">
+	<command kind="static" id="1520" parentMenuID="2" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="1521" parentMenuID="2" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="1530" parentMenuID="2" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="177" parentMenuID="2" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="103" parentMenuID="3" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="104" parentMenuID="3" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="105" parentMenuID="3" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="3392" parentMenuID="3" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="1215" parentMenuID="3" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="2344" parentMenuID="3" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="1212" parentMenuID="3" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="1213" parentMenuID="3" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="1206" parentMenuID="35" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="15005" parentMenuID="64" menuType="0" hidden="1" color="0" />
+	<command kind="static" id="4009" parentMenuID="64" menuType="0" hidden="1" color="0" />
+</photoshop-menu-settings>
