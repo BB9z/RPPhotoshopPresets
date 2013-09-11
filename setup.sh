@@ -1,16 +1,21 @@
 #! /bin/sh
 
-source_path=$(dirname $0)
+source_path=$(dirname "$0")
 backup_name=$(date "+%Y-%m-%d %H%M%S")
+backup_dir="$source_path/Backup/$backup_name"
 
-presets_dir="$HOME/Library/Application Support/Adobe/Adobe Photoshop CC"
-cd "$presets_dir"
+presets_dir="$HOME/Library/Application Support/Adobe/Adobe Photoshop CC/Presets"
+settings_dir="$HOME/Library/Preferences/Adobe Photoshop CC Settings"
+
+echo $source_path
 
 echo "\nBackup old directories:"
-mv -iv "Presets" "Presets Backup $backup_name"
+mkdir -pv "$backup_dir"
+mv -iv "$presets_dir" "$backup_dir/Presets"
+mv -iv "$settings_dir" "$backup_dir/Settings"
 
 echo "\nCreat link:"
-echo 
-ln -hfsv "$source_path" "$presets_dir/Presets"
+ln -hfsv "$source_path/Presets" "$presets_dir"
+ln -hfsv "$source_path/Settings" "$settings_dir"
 
 echo "\nSetup end."
